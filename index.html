@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Cool Tricks!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h3>CSS Tricks</h3>
+    </header>
+    <div class="wrapper">
+        <main>
+            <!--ANIMATED BUTTON-->
+            <section>
+                <h4>1. Animated Menu Button</h4>
+                <hr>
+                <div class="container">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </section>
+
+            <!--ACCORDION MENUs-->
+            <section>
+                <h4>2. Accordion Menu</h4>
+                <hr>
+                <div class="main-container">
+                    <button class="option">
+                        <p>Option 1</p>
+                        <i class="material-icons">&#xe5cf;</i>
+                    </button>
+                    <div class="text-container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor ligula porttitor erat
+                            laoreet mattis. Fusce nisl ligula, molestie at ullamcorper eget, aliquet at felis. Nulla
+                            bibendum est sit amet augue hendrerit, quis ornare diam euismod. Donec magna libero, lacinia
+                            a
+                            nibh non, posuere pulvinar turpis.</p>
+                    </div>
+
+                    <button class="option">
+                        <p>Option 2</p>
+                        <i class="material-icons">&#xe5cf;</i>
+                    </button>
+                    <div class="text-container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor ligula porttitor erat
+                            laoreet mattis. Fusce nisl ligula, molestie at ullamcorper eget, aliquet at felis. Nulla
+                            bibendum est sit amet augue hendrerit, quis ornare diam euismod. Donec magna libero, lacinia
+                            a
+                            nibh non, posuere pulvinar turpis.</p>
+                    </div>
+
+                    <button class="option">
+                        <p>Option 3</p>
+                        <i class="material-icons">&#xe5cf;</i>
+                    </button>
+                    <div class="text-container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor ligula porttitor erat
+                            laoreet mattis. Fusce nisl ligula, molestie at ullamcorper eget, aliquet at felis. Nulla
+                            bibendum est sit amet augue hendrerit, quis ornare diam euismod. Donec magna libero, lacinia
+                            a
+                            nibh non, posuere pulvinar turpis.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--TAB HEADERS-->
+            <section>
+                <h4>3. Tab Headers</h4>
+                <hr>
+                <div class="tabcontent" id="city1">
+
+                    <div class="city-info">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="tabcontent" id="city2">
+                    <div class="city-info">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="tabcontent" id="city3">
+                    <div class="city-info">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="tabcontent" id="city4">
+                    <div class="city-info">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="tablink-wrapper">
+                    <button class="tablink">Tokyo</button>
+                    <button class="tablink">Paris</button>
+                    <button class="tablink">London</button>
+                    <button class="tablink">Venice</button>
+                </div>
+            </section>
+
+            <!--RESPONSIVE TOP NAV-->
+            <section>
+                <h4>4. Responsive Top Nav</h4>
+                <hr>
+                <nav id="responsie-nav">
+                    <ul>
+                        <li class="active2">
+                            <span>Home</span>
+                            <i class="material-icons">&#xe88a;</i>
+                        </li>
+                        <li>Culture</li>
+                        <li>Insight</li>
+                        <li>Contact</li>
+                        <li>About</li>
+                        <li id="more-menu">
+                            More
+                            <i class="material-icons arrow">&#xe5cf;</i>
+                            <ul class="drop-menu">
+                                <li>Bangkok</li>
+                                <li>Dubai</li>
+                                <li>Singapore</li>
+                                <li>New York</li>
+                                <li>Kuala Lumpur</li>
+                                <li>Seoul</li>
+                            </ul>
+                        </li>
+                        <li class="scnd-icon">
+                            <i class="fa fa-bars"></i>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="slide-menu">
+                    <li>Home</li>
+                    <li>Culture</li>
+                    <li>Insight</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                    <li>Bangkok</li>
+                    <li>Dubai</li>
+                    <li>Singapore</li>
+                    <li>New York</li>
+                    <li>Kuala Lumpur</li>
+                    <li>Seoul</li>
+                </ul>
+            </section>
+
+            <!--SEARCH/FILTER MENU-->
+            <section>
+                <h4>5. Search/Filter Menu</h4>
+                <hr>
+                <div class="srch-container">
+                    <div class="side-bar">
+                        <div class="side-bar-txt-wrapper">
+                            <h5>Sidebar</h5>
+                            <input type="text" id="srch-bar" placeholder="Search..">
+                        </div>
+                        <ul>
+                            <li class="side-buttons">HTML</li>
+                            <li class="side-buttons">CSS</li>
+                            <li class="side-buttons">JavaScript</li>
+                            <li class="side-buttons">PHP</li>
+                            <li class="side-buttons">Python</li>
+                            <li class="side-buttons">jQuery</li>
+                            <li class="side-buttons">SQL</li>
+                            <li class="side-buttons">Bootstrap</li>
+                            <li class="side-buttons">Node.js</li>
+                        </ul>
+                    </div>
+                    <article class="main-content">
+                        <h3></h3>
+                        <p></p>
+                    </article>
+                </div>
+            </section>
+
+            <!--SIDE NAVIGATION-->
+            <section>
+                <h4>6. Side Navigation</h4>
+                <hr>
+                <div class="canvas">
+                    <div class="overlay"></div>
+                    <div class="push-nav">
+                        <i class="material-icons">close</i>
+                        <ul>
+                            <li>About</li>
+                            <li>Service</li>
+                            <li>Clients</li>
+                            <li>Projects</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+
+                    <div class="txt-content">
+                        <i class="material-icons">&#xe5d2;</i>
+                        <article>
+                            <img src="https://drscdn.500px.org/photo/117480035/m%3D900/v2?sig=e7d89bda089ff6abc425bc6c728430a89acd7fd22b1243ed2d0df574c2b72ff8"
+                                alt="Woman, Horizon, Dusk">
+                            <h5>Le Photographie</h5>
+                            <p>It doesn't matter who clicked, who was the person, his expertise, etc. in the end, All
+                                that matters is the picture. If people are honestly attracted by your work instead of
+                                your fame, position or status. Then, it is a marvelous and rare thing.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--FULLSCREEN OVERLAY NAV-->
+            <section>
+                <h4>7. Fullscreen Overlay Nav</h4>
+                <hr>
+                <div id="fls-nav-wrapper">
+                    <div class="background">
+                        <button>Show Overlay</button>
+                    </div>
+                    <div class="curtain1">
+                        <i class="material-icons">&#xe5cd;</i>
+                        <ul>
+                            <li>About</li>
+                            <li>Service</li>
+                            <li>Clients</li>
+                            <li>Projects</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--BOTTOM BORDER NAV LINKS-->
+            <section>
+                <h4>8. Bottom Border Nav Links</h4>
+                <hr>
+                <nav id="responsie-nav-2">
+                    <ul>
+                        <li>Home</li>
+                        <li>Portfolio</li>
+                        <li>Projects</li>
+                        <li>Contact Us</li>
+                        <li>
+                            <i class="material-icons" title="Buy Now">&#xe8cc;</i>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!--DYNAMIC SCROLLBAR-->
+            <section>
+                <h4>9. Dynamic Scrollbar</h4>
+                <hr>
+                
+                <div class="scrollable">
+                    <nav id="main-nav">
+                        <ul>
+                            <li>Home</li>
+                            <li>Law firms</li>
+                            <li>Recent Cases</li>
+                            <li>Sign Up</li>
+                        </ul>
+                    </nav>
+                    <nav id="alt-nav">
+                        <ul>
+                            <li>Home</li>
+                            <li>Law firms</li>
+                            <li>Recent Cases</li>
+                            <li><i class="fa">&#xf08b;</i></li>
+                        </ul>
+                    </nav>
+
+                    <div class="scrll-banner">
+                        <img src="https://www.iese.edu/wp-content/uploads/2018/11/Innovation-IESE_20180606111202.jpg" alt="Image">
+                        <h2>El Lorem Ipsum de los Lorem Ipsums</h2>
+                    </div>
+                    <article>
+                        <h5>Innovation For Miles</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ab ratione quidem incidunt provident? Sit vitae sint atque unde impedit quos suscipit, molestiae, porro reiciendis aperiam temporibus. Provident, quos ab! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, ut iure? Illo quibusdam excepturi, inventore aliquam officiis eum quia sunt quasi accusantium cum iste perferendis ab, at eos! Omnis, facere.<br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates quo iste inventore magni laudantium aspernatur. Quos repellendus, sit qui nulla similique tempora cumque delectus dolorum praesentium quasi! Harum, quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae corporis odit et voluptas ipsa inventore porro, iure, officia quis nisi architecto quia similique officiis hic illum debitis nobis labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, soluta possimus! Quae laudantium qui fugiat quibusdam accusantium quisquam veritatis, ab deleniti ratione provident dolor, perspiciatis facilis cupiditate inventore vero earum.<br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quod obcaecati officiis facilis saepe, voluptate voluptatibus officia. Officia culpa iste id voluptatum, expedita accusamus alias, cumque, similique ut at animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam debitis repellat rem tempore exercitationem eum ut repellendus error eius! Deserunt nobis praesentium quasi architecto totam.<br><br> Impedit, quisquam? Ad, molestiae ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit soluta nihil animi reiciendis, laborum aspernatur ut dolorum ullam explicabo! Velit enim consequatur hic dolorem ducimus nemo atque labore blanditiis natus?<br><br> Impedit, quisquam? Ad, molestiae ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit soluta nihil animi reiciendis, laborum aspernatur ut dolorum ullam explicabo! Velit enim consequatur hic dolorem ducimus nemo atque labore blanditiis natus?<br><br> Impedit, quisquam? Ad, molestiae ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit soluta nihil animi reiciendis, laborum aspernatur ut dolorum ullam explicabo! Velit enim consequatur hic dolorem ducimus nemo atque labore blanditiis natus?</p>   
+                    </article>
+                </div>
+            </section>
+
+            <!--SLIDE SHOW-->
+            <section>
+                <h4>10. Slide Show</h4>
+                <hr>
+                
+                <div class="slide-wrapper">
+                    <i class="material-icons prev">&#xe314;</i>
+                    <i class="material-icons next">&#xe409;</i>
+                    <div class="slides">
+                        <img src="https://s1.1zoom.me/b5155/454/Japan_Kyoto_Gardens_Pond_Autumn_Pagodas_Bridges_536318_1366x768.jpg">
+                    </div>
+                    <div class="slides">
+                        <img src="http://www.victorialeighphoto.com/wp-content/uploads/2018/05/Switzerland-Zermatt-Cave-Lola-Photography-slide.jpg" alt="">
+                    </div>
+                    <div class="slides">
+                        <img src="https://i1.adis.ws/i/canon/canon-get-inspired-ossi-saarinen-urban-nature-photography-story-1-1920x1080?qlt=80&w=100%&sm=aspect&aspect=16:9&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)" alt="">
+                    </div>
+                    <div class="slides">
+                        <img src="https://www.fodors.com/wp-content/uploads/2018/09/Guide-To-Islands-Of-Venice-Torcello-Hero.jpg" alt="">
+                    </div>
+                    <div class="slides">
+                        <img src="https://wallup.net/wp-content/uploads/2019/05/10/628080-628080.jpg" alt="">
+                    </div>
+
+                    <div class="btn-container">
+                        <buttons class="btns"></buttons>
+                        <buttons class="btns"></buttons>
+                        <buttons class="btns"></buttons>
+                        <buttons class="btns"></buttons>
+                        <buttons class="btns"></buttons>
+                    </div>
+                </div>
+            </section>
+
+            <!--SLIDE SHOW GALLERY-->
+            <section>
+                <h4>11. Slide Show Gallery</h4>
+                <hr>
+
+                <div class="slide-wrapper-2">
+                    <div class="img-ctns">
+                        <p id="counter"></p>
+                        <img src="" alt="Main Image">
+                        <span></span>
+                    </div>
+
+                    <i class="material-icons prev2">&#xe314;</i>
+                    <i class="material-icons next2">&#xe409;</i>
+
+                    <div class="thumbnail-ctns">
+                        <div class="thumbnails">
+                            <img src="https://s1.1zoom.me/b5155/454/Japan_Kyoto_Gardens_Pond_Autumn_Pagodas_Bridges_536318_1366x768.jpg" alt="Japanese Lanscape">
+                        </div>
+                        <div class="thumbnails">
+                            <img src="http://www.victorialeighphoto.com/wp-content/uploads/2018/05/Switzerland-Zermatt-Cave-Lola-Photography-slide.jpg" alt="Zermatt Cave">
+                        </div>
+                        <div class="thumbnails">
+                            <img src="https://i1.adis.ws/i/canon/canon-get-inspired-ossi-saarinen-urban-nature-photography-story-1-1920x1080?qlt=80&w=100%&sm=aspect&aspect=16:9&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)" alt="Fox Nature">
+                        </div>
+                        <div class="thumbnails">
+                            <img src="https://www.fodors.com/wp-content/uploads/2018/09/Guide-To-Islands-Of-Venice-Torcello-Hero.jpg" alt="Grand Canal">
+                        </div>
+                        <div class="thumbnails">
+                            <img src="https://wallup.net/wp-content/uploads/2019/05/10/628080-628080.jpg" alt="At Dusk">
+                        </div>
+                        <div class="thumbnails">
+                            <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i86150a51964976d0/version/1490283314/most-beautiful-landscapes-in-europe-copyright-vicky-sp-european-best-destinations.jpg" alt="European Valleys">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--IMAGE MODAL-->
+            <section>
+                <h4>12. Image Modal</h4>
+                <hr>
+
+                <img class="main-img" src="https://farm9.staticflickr.com/8471/8110524085_48eca5838b_b.jpg" alt="Golden Retriever" draggable="false">
+                <div class="curtain">
+                    <i class="material-icons">&#xe5cd;</i>
+                    <img src="" draggable="false">
+                    <span></span>
+                </div>
+            </section>
+
+            <!--PORTFOLIO WITH FILTERING-->
+            <section>
+                <h4>13. Portfolio With Filtering</h4>
+                <hr>
+
+                <div class="portfolio-wrapper">
+                    <div class="site-desc">
+                        <h4>My Portfolio</h4>
+                        <p>Click a button to filter by category.</p>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="filter" data-category="show-all">Show All</button>
+                        <button class="filter" data-category="landscape">Landscape</button>
+                        <button class="filter" data-category="technolgy">Technology</button>
+                        <button class="filter" data-category="anime-manga">Anime/Manga</button>
+                        <button class="filter" data-category="food-cuisine">Food & Cuisine</button>
+                        <button class="filter" data-category="cars">Cars</button>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="row" data-category="landscape">
+                            <div class="card">
+                                <img src="https://render.fineartamerica.com/images/rendered/default/poster/10/8/break/images-medium-5/3-sunflower-summer-sunset-landscape-with-blue-skies-matthew-gibson.jpg" alt="">
+                                <h5>Sunflower</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/if670326d9abc999f/version/1490297331/most-beautiful-landscapes-in-europe-faroe-islands-european-best-destinations-copyright-federica-violin.jpg" alt="">
+                                <h5>European Fields</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://s3-us-west-2.amazonaws.com/lightstalking-assets/wp-content/uploads/2017/02/25173513/northern-lights.jpg" alt="">
+                                <h5>Northern Lights</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-category="technolgy">
+                            <div class="card">
+                                <img src="https://www.straitstimes.com/sites/default/files/styles/article_pictrure_780x520_/public/articles/2018/12/05/nz-gadget-041218.jpg?itok=3owGWr2d&timestamp=1543961499" alt="">
+                                <h5>Gadgets</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://d2wsh2n0xua73e.cloudfront.net/wp-content/uploads/2018/09/iPhone-XS-Max.jpg" alt="">
+                                <h5>iPhone XS Max</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://media.istockphoto.com/photos/macbook-pro-2018-partially-closed-cover-frontal-view-dark-background-picture-id1020398728?k=6&m=1020398728&s=170667a&w=0&h=7kJr3hP-6QuRizEV8rCWuL49G_Dzm9k5sxMn44LbeTM=" alt="">
+                                <h5>Macbook Pro 2018</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-category="anime-manga">
+                            <div class="card">
+                                <img src="https://wallpapercave.com/wp/wp4317866.jpg" alt="">
+                                <h5>Kimetsu No Yaiba</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://i.ytimg.com/vi/oYMtjA-A3YE/maxresdefault.jpg" alt="">
+                                <h5>One Piece Wano Kuni</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="http://getwallpapers.com/wallpaper/full/3/d/2/36175.jpg" alt="">
+                                <h5>Hunter X Hunter 2011</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-category="food-cuisine">
+                            <div class="card">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Jacques_Lameloise%2C_escab%C3%A8che_d%27%C3%A9crevisses_sur_gaspacho_d%27asperge_et_cresson.jpg" alt="">
+                                <h5>Delicious</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://i.ndtvimg.com/i/2017-12/butter-chicken_620x330_81512109106.jpg" alt="">
+                                <h5>Butter Chicken</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://66.media.tumblr.com/af972f22d216b25de5fc1282b572143f/tumblr_o82bieDM9l1r0094to1_1280.jpg" alt="">
+                                <h5>Angus Beef Burger</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-category="food-cuisine">
+                            <div class="card">
+                                <img src="https://www.billsbarandburger.com/content/uploads/2017/05/Classic-Shakes.jpg" alt="">
+                                <h5>Monster Shakes</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://images.britcdn.com/wp-content/uploads/2014/07/strawberry-pretzel-salad-sugar-free-fp.jpg" alt="">
+                                <h5>Strawberry Pretzel</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://i.pinimg.com/originals/70/bc/9b/70bc9b11df264f0fd43f134f9f357887.jpg" alt="">
+                                <h5>Churros with Dolce de Leche</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                        </div>
+
+                        <div class="row" data-category="cars">
+                            <div class="card">
+                                <img src="https://www.w3schools.com/w3images/cars2.jpg" alt="">
+                                <h5>Fast</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://www.w3schools.com/w3images/cars1.jpg" alt="">
+                                <h5>Retro</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://www.w3schools.com/w3images/cars3.jpg" alt="">
+                                <h5>Classic</h5>
+                                <p>Lorem Ipsum...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--READ MORE-->
+            <section>
+                <h4>14. Read More</h4>
+                <hr>
+                
+                <article class="read-more">
+                    <h5>Expandable Text</h5>
+                    <p>
+                        Node.js is an open-source, cross-platform, JavaScript run-time environment that executes JavaScript code outside of a browser. Node.js lets<span id="indicator"> . . .</span><span id="remaining" class="hidden"> developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web application development around a single programming language, rather than different languages for server- and client-side scripts.</span>
+                    </p>
+                    <button>Read More</button>
+                </article>
+            </section>
+
+            <!--SCROLL TO TOP BUTTON-->
+            <section>
+                <h4>15. Scroll To Top Button</h4>
+                <hr>
+                
+                <div class="scrl-top-wrapper">
+                    <h5 id="top">Scroll Down</h5>
+                    <a href="#top">Top
+                        <i class="material-icons">&#xe5c7;</i>
+                    </a>
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam eum, minus, cum perferendis et iure impedit, corrupti numquam repudiandae architecto? Molestias in voluptas fugit corrupti iure et recusandae amet?
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <!--COPY SELECTION-->
+            <section>
+                <h4>16. Copy Selection</h4>
+                <hr>
+                
+                <div class="copy-wrapper">
+                    <input type="text" value="(829) 352-6198" id="myInput" readonly>
+                    <div class="copy-num-ctn">
+                        <i class="material-icons">&#xe14d;</i>
+                        <span class="tooltip">Copy Number</span>
+                    </div>
+                </div>
+            </section>
+
+            <!--CUSTOM SELECT MENU-->
+            <section>
+                <h4>17. Custom Select Menu</h4>
+                <hr>
+                
+                <div class="custom-slct-menu">
+                    <h5>Open the select dropdown menu</h5>
+                    <img src="https://wallpaperplay.com/walls/full/8/0/4/71462.jpg" alt="">
+                    
+                    <form action="database.php" id="form1" method="GET">
+                        <select name="country">
+                            <option value="none">Select your country..</option>
+                            <option value="united states">United States</option>
+                            <option value="australia">Australia</option>
+                            <option value="united kingdom">United Kingdom</option>
+                            <option value="puerto rico">Puerto Rico</option>
+                            <option value="dominican republic">Dominican Republic</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="venezuela">Venezuela</option>
+                        </select>
+                        <div class="my-drpdown">
+                            <button type="button">
+                                <span>Select your country..</span>
+                                <i class="material-icons">&#xe5c5;</i>
+                            </button>
+                            <div class="actual-drp">
+                                <div class="drp-option" data-value="none">Select your country..</div>
+                                <div class="drp-option" data-value="australia">Australia</div>
+                                <div class="drp-option" data-value="colombia">Colombia</div>
+                                <div class="drp-option" data-value="dominican republic">Dominican Republic</div>
+                                <div class="drp-option" data-value="puerto rico">Puerto Rico</div>
+                                <div class="drp-option" data-value="venezuela">Venezuela</div>
+                                <div class="drp-option" data-value="united kingdom">United Kingdom</div>
+                                <div class="drp-option" data-value="united states">United States</div>
+                            </div>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+
+            <!--SHOW PASSWORD-->
+            <section>
+                <h4>18. Show Password</h4>
+                <hr>
+
+                <form action="" id="form2">
+                    <input type="password" name="pswrd" placeholder="Password..">
+                    <input type="checkbox" name="checkBox1">
+                </form>
+            </section>
+
+            <!--PASSWORD VALIDATION-->
+            <section>
+                <h4>19. Password Validation</h4>
+                <hr>
+
+                <div class="pass-wrapper">
+                    <!-- <div class="pass-banner"></div> -->
+                    <form action="" id="form3">
+                        <label for="usrname">Username</label>
+                        <input type="text" name="usrname" placeholder="Username..">
+                        <label for="pswrd">Password</label>
+                        <input type="password" name="pswrd" placeholder="Password..">
+                        <button type="button">Sign Up</button>
+                    </form>
+
+                    <div class="validation">
+                        <p>Your password must contain the following:</p>
+                        <div>
+                            <i class="material-icons">&#xe000;</i>
+                            <span>A&#160;<strong>lowercase</strong>&#160;letter</span>
+                        </div>
+                        <div>
+                            <i class="material-icons">&#xe000;</i>
+                            <span>A&#160;<strong>capital (uppercase)</strong>&#160;letter</span>
+                        </div>
+                        <div>
+                            <i class="material-icons">&#xe000;</i>
+                            <span>A&#160;<strong>number</strong></span>
+                        </div>
+                        <div>
+                            <i class="material-icons">&#xe000;</i>
+                            <span>A&#160;<strong>special character</strong></span>
+                        </div>
+                        <div>
+                            <i class="material-icons">&#xe000;</i>
+                            <span>Minimum&#160;<strong>8 characters</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--AUTOCOMPLETE-->
+            <section>
+                <h4>20. Autocomplete</h4>
+                <hr>
+
+                <p id="auto-title">Start typing</p>
+                <form autocomplete="off" action="" id="form4">
+                    <div class="srch-box">
+                        <input type="text" name="country" placeholder="Country">
+                    </div>
+                    <button type="button">Submit</button>
+                </form>
+            </section>
+
+            <!--MULTI STEP FORM-->
+            <section>
+                <h4>21. Multi Step Form</h4>
+                <hr>
+
+                <div class="multi-wrapper">
+                    <h5>Sign-Up Form</h5>
+
+                    <div class="regis-slide unfinished">
+                        <label>Name:</label>
+                        <input id="0" name="firstName" type="text" placeholder="First name..">
+                        <input id="1" name="lastName"  type="text" placeholder="Last name..">
+                    </div>
+                    <div class="regis-slide unfinished" data-tab="ready">
+                        <label>Contact Info:</label>
+                        <input name="email" type="text" placeholder="Email@domain.com">
+                        <input name="phone" type="text" placeholder="XXX-XXX-XXXX">
+                    </div>
+                    <div class="regis-slide unfinished" data-tab="ready">
+                        <label>Login Info:</label>
+                        <input name="username" type="text" placeholder="Username..">
+                        <input name="password" type="password" placeholder="Password..">
+                    </div>
+                    <div class="regis-slide unfinished">
+                        <label>References:</label>
+                        <input name="reference1" type="text" placeholder="Reference name..">
+                        <input name="reference2" type="text" placeholder="Reference name..">
+                    </div>
+                    <div class="regis-slide unfinished terms-conditions">
+                        <label>Terms & Conditions</label>
+                        <p>Welcome to JS Practice!<br><br>
+                        These terms and conditions outline the rules and regulations for the use of No name's Website, located at www.jspractice.com.<br><br>
+                        <p>Do you agree to the terms and conditions?</p>
+                        <span>I Agree</span>
+                        <input type="checkbox" name="agree">
+                    </div>
+
+                    <div class="prev-next-wrapper">
+                        <input type="button" value="Next">
+                        <input type="hidden" value="Previous">
+                    </div> 
+
+                    <div class="btn-container2"></div> 
+                </div>
+            </section>
+
+            <!--FILTER LIST-->
+            <section>
+                <h4>22. Filter List</h4>
+                <hr>
+
+                <div class="filter-wrapper">
+                    <input type="text" name="srch-filter" placeholder="Search for a student's record">
+                    <ul class="filter-list"></ul>
+                    <button id="sort-list">Sort</button>
+                </div>
+            </section>
+
+            <!--SORT TABLE-->
+            <section>
+                <h4>23. SORT TABLE</h4>
+                <hr>
+                <div class="sortable-tb">
+                    <ul class="header">
+                        <li data-sort="model">Model</li>
+                        <li data-sort="brand">Brand</li>
+                        <li data-sort="year">Year</li>
+                        <li>Color(s)</li>
+                        <li data-sort="Price">Price</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--COMING SOON lANDING PAGE-->
+            <section>
+                <h4>24. "Coming Soon" & Countdown</h4>
+                <hr>
+                <div class="this-wrapper">
+                    <img src="https://arma3.com/assets/img/wallpapers/contact/2/Arma%203%20Contact_wallpaper_3840%C3%972160.jpg" alt="landing image" draggable="false">
+                    <div class="info-wrapper">
+                        <h5>Coming Soon</h5>
+                        <hr>
+                        <div class="countdown"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
